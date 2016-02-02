@@ -1,7 +1,18 @@
-$body-bg: #2980b9;
-$navbar-default-bg: #2c3e50;
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300);
+
+$font-family-sans-serif: 'Josefin Sans';
+$body-bg: #6BB9F0;
+$navbar-default-bg: #2574A9;
 $navbar-default-link-color: #ecf0f1;
 $brand-primary: #2980b9;
 $jumbotron-bg: #ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+	}
+
+.navbar-brand {
+	font-weight: bold;
+}
