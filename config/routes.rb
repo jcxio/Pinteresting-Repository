@@ -1,14 +1,11 @@
 Rails.application.routes.draw do
+  resources :pins
   devise_for :users
+  
   root "pages#home"
   get "about" => "pages#about" # creates about_path
   get "faq" => "pages#faq" # creates faq_path
-  
-  # OL Placeholder if need to add paths here for Devise login/signup
-  # get "Log in" => "pages#sign_in" # creates sign_in_path
-  # get "Sign up" => "pages#sign_up" # creates sign_up_path
-
-
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
