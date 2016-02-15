@@ -85,8 +85,7 @@ Rails.application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-    :s3_region => 'us-east-1'
-      :bucket => ENV['AWS_BUCKET'],
+    :s3_region => 'us-east-1'S3_omr-pinteresting-ol'],
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
